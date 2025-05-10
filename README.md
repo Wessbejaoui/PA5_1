@@ -33,7 +33,7 @@ The barplot below proposes a distribution of coupon acceptance based on the rate
 
 ![acceptance_rate_by_bar_visit_group](https://github.com/user-attachments/assets/958142cc-586e-4ec8-8ecf-99fdb303efe3)
 
-## Who are those folks who accepted the coupon?
+## Who are the folks who accepted the coupon?
 
 To better understand this data, I introduced the age factor to better represent this demographic. The comprehensive histoplot below breaks down the age categories in function of the acceptance rate and the bar visiting frequency. While it is easy to spot some interesting data right off the bat, such as:
 - The absence of those who are between the ages of 31 and 50 in the "gt8" category
@@ -48,8 +48,60 @@ In the same vein as the observations above, it remains interesting that folks wo
 
 ![average_acceptance_rate_by_bar_visit_frequency_and_passenger_type_excluding_kids_and_certain_occupations](https://github.com/user-attachments/assets/9d861fca-f135-4bdb-9c81-63ade7728485)
 
-The data shows that a regular bar goer would always be influenced by a partner or a friend to increase the acceptance rate of a bar coupon. This is consistent among all 3 groups with negligible differences between being with a partner vs a friend. 
+The data shows that a regular bar goer would always be influenced by the presence of a partner or a friend to increase the acceptance rate of a bar coupon. This is consistent among all 3 groups, and the information could be interpreted in many ways. The one thing we can conclude from this is that a drink is much appreciated with company. 
 
 ### Findings
 
+**General Coupon Effectiveness:**
+
+The overall coupon acceptance rate is 56.84%, which signals strong potential for digital or location-based couponing campaigns.
+
+Coupons are especially effective for low-cost food venues (<$20 restaurants and to-go orders), but not as much for bars or expensive restaurants.
+
+**Weather Strongly Influences Coupon Use:**
+
+Acceptance triples in warmer temperatures (70–80°F) compared to colder days (30–40°F).
+
+This implies that seasonal targeting may be critical, summer campaigns may perform much better for family or social-oriented coupons.
+
+**Bar Visit Frequency as a Key Predictor:**
+
+Customers who go to bars more than 3 times/month are more than twice as likely to accept bar coupons (76.88% vs 37.06%).
+
+Frequency-based segmentation could greatly improve ROI for bar coupon promotions.
+
+**Age-Specific Behavior Has Nuance:**
+
+While those under 25 tend to engage more with bar coupons, there's insufficient clarity for ages 25+, likely due to sample size or category overlap.
+
+The data showed unexpected trends, such as under-21s in the "gt8" bar visit group, suggesting either outliers or data inconsistencies worth revisiting.
+
+**Passengers Influence Decisions:**
+
+Acceptance rates are higher when drivers are accompanied by a partner or friend compared to being alone.
+
+When kids or specific occupations (farming/fishing/forestry) are excluded, acceptance rates rise, supporting the idea that social context matters.
+
+**Compound Demographic Segments Matter:**
+
+When looking at drivers who either:
+
+go to bars more than once a month and are over 25
+
+or are under 30 and go out often
+
+or go to cheap restaurants frequently and make under $50K
+These groups had significantly higher coupon acceptance than others.
+
+This shows that targeting based on lifestyle clusters (age, income, habits) is more predictive than any one feature alone.
+
 ### Next steps
+
+To better predict and influence customer behavior, several strategic steps can be taken based on the findings from the analysis.
+First, developing a predictive model using machine learning techniques can help estimate the likelihood of coupon acceptance based on features like age, income, bar or restaurant visit frequency, companion type, weather conditions, and destination.
+
+Additionally, clustering techniques like K-means can segment customers into behavioral groups, such as social drinkers, budget-conscious families, or solo commuters, enabling more targeted promotions. Creating features that capture combinations of behaviors, for example, young social travelers or low-income high-frequency diners, can further enhance model performance and insight clarity.
+
+We can also investigate time-based behavior, such as the day of the week or time of day, which may reveal optimal windows for offering specific coupons, such as happy hour discounts or weekend family deals. 
+
+Finally, visualization tools such as Plotly and Seaborn can further allow stakeholders to easily visualize trends, monitor acceptance rates, and make timely, data-driven marketing decisions. Together, these steps offer a comprehensive approach to optimizing coupon strategies and maximizing customer engagement.
