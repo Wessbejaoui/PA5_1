@@ -48,7 +48,7 @@ In the same vein as the observations above, it remains interesting that folks wo
 
 ![average_acceptance_rate_by_bar_visit_frequency_and_passenger_type_excluding_kids_and_certain_occupations](https://github.com/user-attachments/assets/9d861fca-f135-4bdb-9c81-63ade7728485)
 
-
+The data shows that a regular bar goer would always be influenced by a partner or a friend to increase the acceptance rate of a bar coupon. This is consistent among all 3 groups with negligible differences between being with a partner vs a friend. 
 
 ### Findings
 
