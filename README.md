@@ -44,7 +44,12 @@ This data reveals that there is something else that could be drawn from this dat
 
 ![average_y_score_by_bar_visit_frequency_and_age](https://github.com/user-attachments/assets/afa87034-d019-4200-9d3f-bf4145629ee9)
 
-In the same token as the observations abovem, it remains interesting that folks 
+In the same vein as the observations above, it remains interesting that folks would possibly make decisions in groups, such as friends, family, a coworker, etc. It is possible that some of the decision impact could have been influenced by circumstances, just like the weather temperature, but in this case, the passengers would have a say in whether the coupon gets used or not. Here, I am going to include that information and add a twist where I eliminate certain occupations from this data. The histogram below represents the rate of acceptance under these added conditions to consider (No kid passengers, only certain occupations)
+
+![average_acceptance_rate_by_bar_visit_frequency_and_passenger_type_excluding_kids_and_certain_occupations](https://github.com/user-attachments/assets/9d861fca-f135-4bdb-9c81-63ade7728485)
+
+
+
 ### Findings
 
 ### Next steps
